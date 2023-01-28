@@ -1,0 +1,19 @@
+{
+  "name": "computergoblin",
+  "version": "1.0.0",
+  "description": "The goblin's store of technical wisdom and knowledge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dn-rodr/computergoblin.git"
+  },
+  "author": "dn-rodr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dn-rodr/computergoblin/issues"
+  },
+  "homepage": "https://github.com/dn-rodr/computergoblin#readme"
+}
