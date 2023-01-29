@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/dn-rodr/computergoblin/issues"
   },
-  "homepage": "https://github.com/dn-rodr/computergoblin#readme"
+  "homepage": "https://github.com/dn-rodr/computergoblin#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@ibm/plex": "^6.1.1",
+    "sass": "^1.57.1",
+    "standard": "^17.0.0"
+  }
 }
