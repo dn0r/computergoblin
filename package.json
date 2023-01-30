@@ -1,7 +1,7 @@
 {
   "name": "computergoblin",
   "version": "1.0.0",
-  "description": "The goblin's store of technical wisdom and knowledge.",
+  "description": "A goblin's store of technical information and squabbles.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
