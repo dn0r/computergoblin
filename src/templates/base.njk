@@ -4,7 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../../assets/css/page.css" type="text/css">
+        {% block styles %}
+        {# 
+            I haven't yet thought of a way to better unify styles from different directory levels;
+            eventually I will find a better solution, but for now, this will work.
+        #}
+        {% endblock %}
         <title>Computer Goblin</title>
     </head>
     <body>

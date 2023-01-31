@@ -1,7 +1,5 @@
 node_modules
-dist/admin
-src/admin
-
+dist
 
 # Local Netlify folder
 .netlify

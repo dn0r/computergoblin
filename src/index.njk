@@ -1,5 +1,9 @@
 {% extends "./templates/base.njk" %}
 
+{% block styles %}
+<link rel="stylesheet" href="./assets/css/page.css" type="text/css">
+{% endblock %}
+
 {% block header %}
 <p>
     Donec tincidunt dui purus, eget scelerisque magna venenatis a. Nullam congue porta convallis. Phasellus luctus urna commodo risus pharetra interdum. Suspendisse ac magna rhoncus, feugiat lacus et, ultrices orci. Nullam sit amet ex nisl. Phasellus dapibus diam augue, a sagittis diam mollis eget. In lobortis volutpat lacus, vel sodales felis viverra id. Maecenas egestas aliquam justo, a porta quam. Maecenas interdum, ante sed hendrerit vehicula, sapien lorem euismod diam, vitae sollicitudin leo metus vel eros.
@@ -15,5 +19,5 @@
 {% endblock %}
 
 {% block script %}
-<script src="./scripts/script.js"></script>
+<script src="/scripts/main.js"></script>
 {% endblock %}

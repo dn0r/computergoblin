@@ -19,7 +19,9 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@ibm/plex": "^6.1.1",
-    "sass": "^1.57.1",
+    "sass": "^1.57.1"
+  },
+  "optionalDependencies": {
     "standard": "^17.0.0"
   }
 }
