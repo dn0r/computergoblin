@@ -1,6 +1,6 @@
 var parent = document.getElementsByTagName('span')[0]
 
-const pagesDir = './'
+const pagesDir = '/'
 
 const labReports = [
   { title: 'Lab 1 - Setup A Website', dir: (pagesDir + 'Lab1-01.26.23') },
