@@ -1,12 +1,11 @@
-const src = 'src'
-
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy(src + '/assets/')
-  eleventyConfig.addPassthroughCopy(src + '/scripts/')
+  eleventyConfig.addPassthroughCopy("src/assets/")
+  eleventyConfig.addPassthroughCopy("src/scripts/")
+  eleventyConfig.addPassthroughCopy("src/data/")
 
   return {
     dir: {
-      input: src,
+      input: "src/",
       output: 'dist'
     }
   }
