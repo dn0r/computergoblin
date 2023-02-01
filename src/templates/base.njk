@@ -22,7 +22,12 @@
             {% block main %}
             {% endblock %}
         </main>
-        {% include "./components/footer.njk" %}
+        <footer>
+            {% block footer %}
+            {% endblock %}
+            <br><br>
+            <a href="https://github.com/dn-rodr">dn-rodr</a>
+        </footer>
         {% block script %}
         {% endblock %}
     </body>
