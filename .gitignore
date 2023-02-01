@@ -1,5 +1,10 @@
+# Not needed for source
 node_modules
 dist
 
 # Local Netlify folder
 .netlify
+
+# Prettier config
+.prettierignore
+prettierrc.json
