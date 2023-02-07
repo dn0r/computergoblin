@@ -1,11 +1,11 @@
 @import "../node_modules/@ibm/plex/scss/ibm-plex.scss";
 $font-stack: 'IBM Plex Mono', monospace;
-$amb-color: #e95f2d;
+$theme-color: #e95f2d;
 
 body {
     background-color: black;
     font-family: $font-stack;
-    color: $amb-color;
+    color: $theme-color;
 }
 
 a {
@@ -13,7 +13,7 @@ a {
         color: #cc5023; 
     }
 
-    color: $amb-color;
+    color: $theme-color;
 }
 
 
@@ -42,7 +42,7 @@ nav {
     justify-content: left;
     gap: 1em;
     border-style: solid;
-    border-color: $amb-color;
+    border-color: $theme-color;
     border-width: 3px;
     padding: 3px 3px 3px 3px;
 
@@ -87,10 +87,6 @@ main, header {
         // Corrects large text overflow.
         inline-size: $special-size;
         overflow-wrap: break-word;
-    }
-
-    ul {
-        line-height: 80%;
     }
     
     margin-top: 25px;

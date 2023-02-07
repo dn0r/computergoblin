@@ -2937,9 +2937,6 @@ main p, header p {
   inline-size: 57vw;
   overflow-wrap: break-word;
 }
-main ul, header ul {
-  line-height: 80%;
-}
 
 footer {
   margin-top: 20vh;
