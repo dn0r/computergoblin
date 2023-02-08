@@ -1,18 +1,22 @@
-{% extends "../../templates/base.njk" %}
+{% extends "../../templates/labreport.njk" %}
 
-{% block styles%}
-<link rel="stylesheet" href="../../../assets/css/style.css" type="text/css">
-<link rel="stylesheet" href="../../../assets/css/lab.css" type="text/css">
+{% block labTitle %}
+Lab 1 - Make a Website
 {% endblock %}
 
-{% block main %}
-<h1>Lab 1 - Make a Website</h1>
-<p>January 26, 2023</p><br>
-<h2>Objective(s)</h2>
+{% block postDate %}
+January 26, 2023
+{% endblock %}
+
+{% block objective%}
 <p>Construct and set up a blog and create a post using Wordpress.</p>
-<h2>Equipment List</h2>
+{% endblock %}
+
+{% block equipment%}
 <p>Wordpress, Personal Computer.</p>
-<h2>Notes and Observations (Analysis)</h2>
+{% endblock %}
+
+{% block analysis %}
 <p>
     <a href="https://wordpress.com/">Wordpress</a>, an open-source content management system and service, appears to have a relatively friendly user interface that most people can work with; the amount of customization you're permitted is adequate for building rudimentary personal, blog-styled, and commercial websites.
 </p>
@@ -34,12 +38,10 @@
 <p>
     Noticeably, Wordpress tries to guide you into paying for a domain claiming it is <i>'free'</i> and is designed to draw your attention away from creating a free subdomain name (<i>website-name</i>.wordpress.com). You will want to pay close attention for a link to creating a free subdomain instead of paying for one.
 </p>
-<h2>Conclusions</h2>
+{% endblock %}
+
+{% block conclusion %}
 <p>
     Wordpress is an easy way to create websites for your business, blog, and other things you may want to serve. The user interface is not too hostile for the average individual wanting to construct their first website, although it may be a bit jarring at first learning the structure of it all. Wordpress may try to persuade into you buying a domain name; however, you can create a free domain under wordpress.com (<i>website-name</i>.wordpress.com).
 </p>
-{% endblock %}
-
-{% block footer %}
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 {% endblock %}

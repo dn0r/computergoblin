@@ -1,0 +1,33 @@
+{% extends "./base.njk" %}
+
+{% block styles%}
+<link rel="stylesheet" href="../../../assets/css/style.css" type="text/css">
+<link rel="stylesheet" href="../../../assets/css/lab.css" type="text/css">
+{% endblock %}
+
+{% block main %}
+<h1>
+    {% block labTitle %}
+    {% endblock %}
+</h1>
+<p>
+    {% block postDate %}
+    {% endblock %}
+</p><br>
+<h2>Objective(s)</h2>
+{% block objective %}
+{% endblock %}
+<h2>Equipment List</h2>
+{% block equipment %}
+{% endblock %}
+<h2>Notes and Observations (Analysis)</h2>
+{% block analysis %}
+{% endblock %}
+<h2>Conclusion(s)</h2>
+{% block conclusion%}
+{% endblock %}
+{% endblock %}
+
+{% block footer %}
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+{% endblock %}
