@@ -1,7 +1,7 @@
 {
     "labReports": [
         {"title": "Lab 1 - Make A Website", "dir": "./Lab1-01.26.23"},
-        {"title": "Lab 2 - Computer Parts", "dir": "./Lab2-02.02.23"},
+        {"title": "Lab 2 - Computer Hardware", "dir": "./Lab2-02.02.23"},
         {"title": "Lab 3 - Structured Cabling", "dir": "./Lab3-02.09.23"},
         {"title": "Lab 4 - OSI Model", "dir": "./Lab4-02.17.23"}
     ]
