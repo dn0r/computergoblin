@@ -1,0 +1,82 @@
+{% extends "../../templates/labreport.njk" %}
+{% block labTitle %}
+Lab 2 - Computer Hardware
+{% endblock %}
+{% block postDate %}
+February 2, 2023
+{% endblock %}
+{% block objective %}
+<p>Examine the internal components of a personal computer, different kinds of computers, and locate and identify primary components of a computer.</p>
+{% endblock %}
+{% block equipment %}
+<p>Screwdriver, computer cases with older computer hardware.</p>
+{% endblock %}
+{% block analysis %}
+<p>In the examination of the internal components of a personal computer, we came across various discontinued, legacy components. These components are what is generally needed to have a functional computer for personal use. To start, using the provided computer tower we examined, we have the <dfn title="Central Processing Unit">CPU</dfn> (central processing unit), the brains of the computer:</p>
+<picture class="center">
+    <source srcset="/assets/imgs/IMG_20230124_081657_096_edit.jpg" width=510px height=383px media="(min-width: 1000px)">
+    <source srcset="/assets/imgs/IMG_20230124_081657_096_edit.jpg" width=255px height=192px media="(min-width: 300px)">
+    <img src="/assets/imgs/IMG_20230124_081657_096_edit.jpg">
+</picture>
+<p>
+    This processor in particular could not be accurately identified due to the old thermal paste covering any potential identifying markers; however, based on the embedded Intel G41 chipset that provides video graphics, it can be speculated that this CPU likely falls within the Intel Wolfdale-3M processor family, specifically the Celeron E3000s as indicated by the embedded chipset's consumer product brief: <i>"When combined with the Intel® Celeron® processor E3400 or E1500 this platform enables media-intensive embedded applications ...."</i><sup><strong>[1]</strong></sup> Here is a photo of that video chipset:
+</p>
+<picture class="center">
+    <source srcset="/assets/imgs/IMG_20230124_085409_621.jpg" width=340px height=391px>
+    <img src="/assets/imgs/IMG_20230124_085409_621.jpg">
+</picture>
+<p>The next component is the <dfn title="Random Access Memory">RAM</dfn> (random access memory), the swift, temporary storage area for applications and their respective data. In this instance, the memory stick examined was manufactured by the <a href="https://www.nanya.com/en/About/2/Our%20Company">Nanya Technology Corporation</a> in accordance with the <a href="https://en.wikipedia.org/wiki/DDR3_SDRAM#Specification">DDR3 DRAM specification</a>. Unfortunately, it could not be immediately determined what the capacity of this memory stick was:
+</p>
+<picture class="center">
+    <source srcset="/assets/imgs/IMG_20230124_080129_459.jpg" width=510px height=335px media="(min-width: 1000px)">
+    <source srcset="/assets/imgs/IMG_20230124_080129_459jpg" width=255px height=192px media="(min-width: 300px)">
+    <img src="/assets/imgs/IMG_20230124_080129_459">
+</picture>
+<br>
+<p>
+    Moving on, we will examine the nonvolatile storage of this computer, the hard drive:
+</p>
+<picture class="center">
+    <source srcset="/assets/imgs/IMG_20230124_080104_002.jpg" width=510px height=383px media="(min-width: 1000px)">
+    <source srcset="/assets/imgs/IMG_20230124_080104_002.jpg" width=408px height=306px media="(min-width: 300px)">
+    <img src="/assets/imgs/IMG_20230124_080104_002.jpg">
+</picture>
+<p>Unfortunately, due to time constraints, this HDD could not be properly examined, so there are no specifications that can be listed as of writing this report. It is a standard hard disk drive that interfaces and connects with the system through the SATA bus.</p>
+<br>
+<p>
+
+</p>
+{% endblock %}
+{% block figures %}
+<p><i>N/A</i></p>
+{% endblock%}
+{% block references %}
+<p>
+    <ol>
+        <li><a href="https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/g41-chipset-brief.pdf">Intel G41 Chipset</a></li>
+        <li><a href="https://ark.intel.com/content/www/us/en/ark/products/series/79083/legacy-intel-celeron-processor.html">Intel Legacy Celeron Processors</a></li>
+    </ol>
+</p>
+{% endblock %}
+{% block qa %}
+<p>
+    <strong>Q1</strong>: "How many and what type of I/O ports does the computer you examined have?"
+</p>
+<p>
+    <strong>A1</strong>:
+</p>
+<p>
+    <strong>Q2</strong>: "What is the purpose of the CPU, the HDD, and the RAM memory?"
+</p>
+<p>
+    <strong>A2</strong>:
+</p>
+<p>
+    <strong>Q3</strong>: "What does our magnetic core memory look like? What is the purpose of magnetic core memory?"
+</p>
+<p>
+    <strong>A3</strong>:
+</p>
+{% endblock %}
+{% block conclusion%}
+{% endblock %}
